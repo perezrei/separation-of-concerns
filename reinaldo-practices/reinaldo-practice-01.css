@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fondo {    
+    font-family: monospace;
+    height: 500pt;    
+}
+
+.listparr {
+    text-align-last: center;
+    font-size: 25pt;
+    padding: 15pt;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255);
+    padding: 30pt;
+    height: 200pt;
+    display: flex;
+    height: fit-content;
+}
+
+.cuadro {
+    font-size: 15pt;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    padding: 15pt;
+    margin: 10pt;
+    height: fit-content;
+}
+
+.contlist {
+    height: fit-content;
+}
+
+.titdep {
+    text-align-last: center;
+    font-size: 25pt;
+    padding: 15pt;
+    background-color: rgb(170, 170, 170);
+}
+
+.deportes {
+    background-color: rgb(255, 255, 255);
+    padding: 30pt;
+    height: 200pt;
+    display: flex;
+    height: fit-content;
+}
+
+.elementos {
+    font-size: 15pt;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    text-align: center;
+    padding: 15pt;
+    margin: 10pt;
+    height: fit-content;
+    width: 300pt;
+    justify-content: center;
+}

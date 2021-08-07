@@ -28,3 +28,9 @@ console.log(sectionEl);
 
 const inputEl = document.createElement('input');
 console.log(inputEl);
+
+const h1El = document.createElement('h1');
+console.log(h1El);
+
+const ulEl = document.createElement('ul');
+console.log(ulEl);

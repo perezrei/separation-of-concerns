@@ -9,6 +9,11 @@ ulEl.innerHTML = `
 console.log(ulEl.nodeName, ulEl.cloneNode(true));
 
 // --- write some code ---
+const indexOne = ulEl.children[1];
+indexOne.innerHTML = 'frog';
+
+const indexTwo = ulEl.children[2];
+indexTwo.innerHTML = 'salamander';
 
 // --- --- --- --- --- ---
 
@@ -20,3 +25,4 @@ for (let i = 0; i < expectedInnerHTMLs.length; i++) {
   const expected = expectedInnerHTMLs[i];
   console.assert(actual === expected, `Test child ${i}`);
 }
+# not solved
