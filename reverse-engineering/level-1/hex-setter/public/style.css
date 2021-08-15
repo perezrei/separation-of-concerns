@@ -1,0 +1,31 @@
+element.style {
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    display: block;
+    margin: 8px;
+    background-color: #000000;
+}
+
+.inputs {
+    text-align: center;
+}
+
+section {
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.output {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-size: 2em;
+}
